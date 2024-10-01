@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #333;
+    margin-top: 15px;
+}
+img {
+    height:360px;
+    width:482x;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    filter: brightness(.85);
+}
+img:hover {
+    transform: scale(1.15);
+    filter: brightness(1.1);
+}
+.obr{
+    width: 30%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1.3rem;
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+}
+h2
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+#wynik
+{
+    font-size: 30px;
+    background-color: rgb(206, 218, 119);
+    margin: 0;
+}
